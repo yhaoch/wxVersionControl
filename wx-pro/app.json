@@ -1,13 +1,41 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/movie/movie",
+    "pages/find/find",
+    "pages/cinema/cinema",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#D53E37",
+    "navigationBarTitleText": "电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": { 
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/cinema/cinema",
+      "text": "影院",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "",
+      "selectedIconPath": ""
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "",
+      "selectedIconPath": ""
+    }]
   },
   "sitemapLocation": "sitemap.json"
 }

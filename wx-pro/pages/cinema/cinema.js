@@ -1,9 +1,7 @@
-// pages/logs/logs.js
+// pages/cinema/cinema.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
+  
   data: {
 
   },

@@ -1,4 +1,4 @@
-// pages/logs/logs.js
+// pages/movie/movie.js
 Page({
 
   /**
